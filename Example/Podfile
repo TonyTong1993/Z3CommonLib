@@ -1,13 +1,8 @@
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '8.0'
 
 target 'Z3CommonLib_Example' do
   pod 'Z3CommonLib', :path => '../'
 
-  target 'Z3CommonLib_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
