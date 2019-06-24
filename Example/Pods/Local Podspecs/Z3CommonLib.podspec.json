@@ -1,0 +1,30 @@
+{
+  "name": "Z3CommonLib",
+  "version": "0.1.0",
+  "summary": "A short description of Z3CommonLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TonyTong1993/Z3CommonLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TonyTong1993": "tongwanhua1993@163.com"
+  },
+  "source": {
+    "git": "https://github.com/TonyTong1993/Z3CommonLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Z3CommonLib/Classes/**/*",
+  "dependencies": {
+    "YYKit": [
+      "~> 1.0.9"
+    ],
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ]
+  }
+}

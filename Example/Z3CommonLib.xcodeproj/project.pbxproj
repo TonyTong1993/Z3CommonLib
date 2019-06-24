@@ -62,10 +62,10 @@
 		80EA0FB3A01D2FBCA377CD50 /* Pods_Z3CommonLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Z3CommonLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9814F400025EFB829D44A5F5 /* Pods-Z3CommonLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Z3CommonLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Z3CommonLib_Tests/Pods-Z3CommonLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C3AB0A7D23FA6153F30DDEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BA1A3FF3ADBEBC99D2E95EF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9C3AB0A7D23FA6153F30DDEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA1A3FF3ADBEBC99D2E95EF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C467114CEB15BAD630D58338 /* Pods-Z3CommonLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Z3CommonLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-Z3CommonLib_Example/Pods-Z3CommonLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E1AF2C3C9E18C909B28A4C0B /* Z3CommonLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Z3CommonLib.podspec; path = ../Z3CommonLib.podspec; sourceTree = "<group>"; };
+		E1AF2C3C9E18C909B28A4C0B /* Z3CommonLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Z3CommonLib.podspec; path = ../Z3CommonLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EA80A10E90B94B2FC1C10A99 /* Pods-Z3CommonLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Z3CommonLib_Example.release.xcconfig"; path = "Target Support Files/Pods-Z3CommonLib_Example/Pods-Z3CommonLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				9814F400025EFB829D44A5F5 /* Pods-Z3CommonLib_Tests.debug.xcconfig */,
 				26C2665E3B58E3466621DD4D /* Pods-Z3CommonLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = TonyTong1993;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZA734EWL3T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -348,12 +351,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Z3CommonLib_Example/Pods-Z3CommonLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Z3CommonLib/Z3CommonLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Z3CommonLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +505,7 @@
 			baseConfigurationReference = C467114CEB15BAD630D58338 /* Pods-Z3CommonLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZA734EWL3T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Z3CommonLib/Z3CommonLib-Prefix.pch";
 				INFOPLIST_FILE = "Z3CommonLib/Z3CommonLib-Info.plist";
@@ -513,6 +521,7 @@
 			baseConfigurationReference = EA80A10E90B94B2FC1C10A99 /* Pods-Z3CommonLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZA734EWL3T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Z3CommonLib/Z3CommonLib-Prefix.pch";
 				INFOPLIST_FILE = "Z3CommonLib/Z3CommonLib-Info.plist";
