@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Z3CommonLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Z3CommonLib for zzht'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'TonyTong1993' => 'tongwanhua1993@163.com' }
   s.source           = { :git => 'https://github.com/TonyTong1993/Z3CommonLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Z3CommonLib/Classes/**/*'
@@ -40,4 +40,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'YYKit', '~> 1.0.9'
    s.dependency 'MBProgressHUD', '~> 1.1.0'
+   s.dependency 'DZNEmptyDataSet', '~> 1.8.1'
+   s.dependency 'MJRefresh', '~> 3.2.0'
+   s.dependency 'Masonry', '~> 1.1.0'
 end

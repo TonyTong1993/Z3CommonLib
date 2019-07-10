@@ -9,10 +9,13 @@
 #import <Foundation/Foundation.h>
 
 extern NSInteger const themeColorHexValue;//主题色值
+extern NSString * const themeColorHex;//主题色值
 extern NSInteger const separatorColorHexValue;//间隔线的色值
+extern NSString * const separatorColorHex;//间隔线的色值
 extern NSInteger const textTint;
 extern NSInteger const textPrimaryTint ;//文本一级默认颜色
 extern NSInteger const textSecondaryTint;//文本二级默认颜色
+extern NSString * const textSecondary;
 extern CGFloat const themeFontSize;//主题字体大小
 extern CGFloat const themePrimaryFontSize;//一级字体大小
 extern CGFloat const themeSecondaryFontSize;//二级字体大小
