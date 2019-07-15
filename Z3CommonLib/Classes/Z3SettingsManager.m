@@ -34,6 +34,10 @@ static Z3SettingsManager *_instance;
     return [[NSUserDefaults standardUserDefaults] boolForKey:Z3SettingsManagerLocationWarnKey];
 }
 
+- (void)clearCache {
+    
+}
+
 - (BOOL)locationSimulate {
     return [[NSUserDefaults standardUserDefaults] boolForKey:Z3SettingsManagerLocationSimulateKey];
 }
@@ -47,7 +51,6 @@ static Z3SettingsManager *_instance;
 - (void)post:(NSNotificationName)notificationName {
     [[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil];
 }
-
 
 
 

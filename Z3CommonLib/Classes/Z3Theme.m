@@ -23,6 +23,7 @@ CGFloat const themePrimaryFontSize = 15;//一级字体大小
 CGFloat const themeSecondaryFontSize = 13;//二级字体大小
 NSInteger const backgroundColorHexValue = 0xf4f5f7;
 NSString * const backgroundColorHex = @"#f4f5f7";
+CGFloat const themeCornerRadius = 5.0f;
 @implementation Z3Theme
 static NSString *themeColor;
 +(NSString *)themeColorWithType:(TYThemeType)type {
