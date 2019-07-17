@@ -8,14 +8,14 @@
 
 #import "Z3User.h"
 
-NSString * const KEY_AUTO_LOGIN = @"AUTO_LOGIN";
-NSString * const KEY_AUTO_FILL_PWD = @"AUTO_FILL_PWD";
-NSString * const KEY_USER_NAME = @"USER_NAME";
-NSString * const KEY_USER_PASSWORD = @"USER_PASSWORD";
-NSString * const KEY_USER_LOGIN_FLAG = @"USER_LOGIN_FLAG";//登录状态
-NSString * const KEY_USER_AUTHORIZATION_EVENT_EDIT = @"eventedit";//事件编辑
-NSString * const KEY_USER_AUTHORIZATION_EVENT_SELF_QUERY = @" queryEventSelf";//一键转工单
-NSString * const KEY_USER_AUTHORIZATION_EVENT_TO_WORK_ORDER = @"oneKeyToWorkorder";//一键转工单
+NSString * const Z3KEY_AUTO_LOGIN = @"AUTO_LOGIN";
+NSString * const Z3KEY_AUTO_FILL_PWD = @"AUTO_FILL_PWD";
+NSString * const Z3KEY_USER_NAME = @"USER_NAME";
+NSString * const Z3KEY_USER_PASSWORD = @"USER_PASSWORD";
+NSString * const Z3KEY_USER_LOGIN_FLAG = @"USER_LOGIN_FLAG";//登录状态
+NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_EDIT = @"eventedit";//事件编辑
+NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_SELF_QUERY = @" queryEventSelf";//一键转工单
+NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_TO_WORK_ORDER = @"oneKeyToWorkorder";//一键转工单
 
 @implementation Z3User
 + (instancetype)shareInstance {

@@ -23,9 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		EBCA5F5622D03A3F00ABC1D6 /* Z3SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCA5F5422D03A3F00ABC1D6 /* Z3SettingsManager.m */; };
-		EBCA5F8322D0428600ABC1D6 /* Z3BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCA5F8122D0428600ABC1D6 /* Z3BaseViewController.m */; };
-		EBCA5F8F22D04CCC00ABC1D6 /* Z3BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCA5F8E22D04CCC00ABC1D6 /* Z3BaseTableViewController.m */; };
 		EBCA5FA822D066A700ABC1D6 /* Z3Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCA5FA722D066A700ABC1D6 /* Z3Common.m */; };
 		EBFB0F4322C6EC0D0003FE53 /* Z3UIPopupContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFB0F4222C6EC0D0003FE53 /* Z3UIPopupContainerView.m */; };
 /* End PBXBuildFile section */
@@ -68,12 +65,6 @@
 		C467114CEB15BAD630D58338 /* Pods-Z3CommonLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Z3CommonLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-Z3CommonLib_Example/Pods-Z3CommonLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1AF2C3C9E18C909B28A4C0B /* Z3CommonLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Z3CommonLib.podspec; path = ../Z3CommonLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EA80A10E90B94B2FC1C10A99 /* Pods-Z3CommonLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Z3CommonLib_Example.release.xcconfig"; path = "Target Support Files/Pods-Z3CommonLib_Example/Pods-Z3CommonLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EBCA5F5422D03A3F00ABC1D6 /* Z3SettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Z3SettingsManager.m; sourceTree = "<group>"; };
-		EBCA5F5522D03A3F00ABC1D6 /* Z3SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Z3SettingsManager.h; sourceTree = "<group>"; };
-		EBCA5F8122D0428600ABC1D6 /* Z3BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Z3BaseViewController.m; sourceTree = "<group>"; };
-		EBCA5F8222D0428600ABC1D6 /* Z3BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Z3BaseViewController.h; sourceTree = "<group>"; };
-		EBCA5F8D22D04CCC00ABC1D6 /* Z3BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Z3BaseTableViewController.h; sourceTree = "<group>"; };
-		EBCA5F8E22D04CCC00ABC1D6 /* Z3BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Z3BaseTableViewController.m; sourceTree = "<group>"; };
 		EBCA5FA622D066A700ABC1D6 /* Z3Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Z3Common.h; sourceTree = "<group>"; };
 		EBCA5FA722D066A700ABC1D6 /* Z3Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Z3Common.m; sourceTree = "<group>"; };
 		EBFB0F4122C6EC0D0003FE53 /* Z3UIPopupContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Z3UIPopupContainerView.h; sourceTree = "<group>"; };
@@ -141,12 +132,6 @@
 		6003F593195388D20070C39A /* Example for Z3CommonLib */ = {
 			isa = PBXGroup;
 			children = (
-				EBCA5F8D22D04CCC00ABC1D6 /* Z3BaseTableViewController.h */,
-				EBCA5F8E22D04CCC00ABC1D6 /* Z3BaseTableViewController.m */,
-				EBCA5F8222D0428600ABC1D6 /* Z3BaseViewController.h */,
-				EBCA5F8122D0428600ABC1D6 /* Z3BaseViewController.m */,
-				EBCA5F5522D03A3F00ABC1D6 /* Z3SettingsManager.h */,
-				EBCA5F5422D03A3F00ABC1D6 /* Z3SettingsManager.m */,
 				6003F59C195388D20070C39A /* Z3AppDelegate.h */,
 				6003F59D195388D20070C39A /* Z3AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -341,15 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Z3CommonLib_Example/Pods-Z3CommonLib_Example-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
@@ -369,9 +350,6 @@
 				6003F59E195388D20070C39A /* Z3AppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* Z3ViewController.m in Sources */,
 				EBCA5FA822D066A700ABC1D6 /* Z3Common.m in Sources */,
-				EBCA5F8F22D04CCC00ABC1D6 /* Z3BaseTableViewController.m in Sources */,
-				EBCA5F5622D03A3F00ABC1D6 /* Z3SettingsManager.m in Sources */,
-				EBCA5F8322D0428600ABC1D6 /* Z3BaseViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

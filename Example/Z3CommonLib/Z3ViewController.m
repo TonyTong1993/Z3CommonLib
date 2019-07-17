@@ -7,6 +7,7 @@
 //
 
 #import "Z3ViewController.h"
+#import "Z3User.h"
 @interface Z3ViewController ()
 
 @end

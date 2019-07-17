@@ -24,6 +24,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *transParamsURL;
 @property (nonatomic,strong) NSArray *gisMetas;
 @property (nonatomic,strong) CoorTranUtil *coorTrans;
+
+/**
+ 是否离线登录
+ */
+@property (nonatomic,assign) BOOL offlineLogin;
 /**
  地图参考系wkid，默认值为2437
  */

@@ -9,14 +9,14 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-extern NSString * const KEY_AUTO_LOGIN ;
-extern NSString * const KEY_AUTO_FILL_PWD;
-extern  NSString * const KEY_USER_NAME;
-extern  NSString * const KEY_USER_PASSWORD;
-extern  NSString * const KEY_USER_LOGIN_FLAG;//登录状态
-extern  NSString * const KEY_USER_AUTHORIZATION_EVENT_EDIT;//事件编辑
-extern NSString * const KEY_USER_AUTHORIZATION_EVENT_SELF_QUERY;
-extern  NSString * const KEY_USER_AUTHORIZATION_EVENT_TO_WORK_ORDER;//一键转工单
+extern NSString * const Z3KEY_AUTO_LOGIN ;
+extern NSString * const Z3KEY_AUTO_FILL_PWD;
+extern  NSString * const Z3KEY_USER_NAME;
+extern  NSString * const Z3KEY_USER_PASSWORD;
+extern  NSString * const Z3KEY_USER_LOGIN_FLAG;//登录状态
+extern  NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_EDIT;//事件编辑
+extern NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_SELF_QUERY;
+extern  NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_TO_WORK_ORDER;//一键转工单
 
 
 @interface Z3User : NSObject
