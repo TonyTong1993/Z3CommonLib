@@ -26,6 +26,7 @@ extern NSString * const backgroundColorHex;
 extern NSInteger const leftNavBarColorHexValue;
 extern NSString * const leftNavBarColorHex;
 extern CGFloat const themeCornerRadius;//主题圆角尺寸
+extern NSInteger const leftNavBarColorHexValue;
 typedef NS_ENUM(NSInteger,TYThemeType) {
     TYThemeLight = 1,//纯色
     TYThemeDark,//亮黑
