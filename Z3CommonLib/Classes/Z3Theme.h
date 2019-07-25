@@ -24,6 +24,7 @@ extern CGFloat const themeSecondaryFontSize;//二级字体大小
 extern NSInteger const backgroundColorHexValue;
 extern NSString * const backgroundColorHex;
 extern NSInteger const leftNavBarColorHexValue;
+extern NSString * const leftNavBarColorHex;
 extern CGFloat const themeCornerRadius;//主题圆角尺寸
 typedef NS_ENUM(NSInteger,TYThemeType) {
     TYThemeLight = 1,//纯色

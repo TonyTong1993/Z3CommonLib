@@ -24,8 +24,8 @@ CGFloat const themeSecondaryFontSize = 13;//二级字体大小
 NSInteger const backgroundColorHexValue = 0xf4f5f7;
 NSString * const backgroundColorHex = @"#f4f5f7";
 CGFloat const themeCornerRadius = 5.0f;
-NSInteger const leftNavBarColorHexValue = 0x292A33;//左侧导航条颜色
-
+NSInteger const leftNavBarColorHexValue = 0x005bae;//左侧导航条颜色
+NSString * const leftNavBarColorHex = @"#005bae";
 @implementation Z3Theme
 static NSString *themeColor;
 +(NSString *)themeColorWithType:(TYThemeType)type {
