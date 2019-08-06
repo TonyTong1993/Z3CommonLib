@@ -25,6 +25,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSArray *gisMetas;
 @property (nonatomic,strong) CoorTranUtil *coorTrans;
 
+/*
+ *查询features 保存的临时公用数据
+ */
+@property (nonatomic,copy) NSDictionary *spatialReference;
+@property (nonatomic,copy) NSArray *fields;
+@property (nonatomic,copy) NSDictionary *fieldAliases;
+
 /**
  是否离线登录
  */

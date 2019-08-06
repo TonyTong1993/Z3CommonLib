@@ -19,13 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor colorWithHex:@"#f4f5f7"];
+    self.view.backgroundColor = [UIColor colorWithHex:backgroundColorHex];
     
     
 }
 
 - (void)post:(NSNotificationName)notificationName message:(id)message {
-    [[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil userInfo:@{@"message":message}];
+    if (message) {
+      [[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil userInfo:@{@"message":message}];
+    }else {
+        [[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil];
+    }
 }
 
 - (void)showAlert:(NSString *)title message:(NSString *)message{
@@ -33,7 +37,10 @@
 }
 
 - (void)showToast:(NSString *)message {
-    
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeText;
+    hud.label.text = message;
+    [hud hideAnimated:YES afterDelay:1.0];
 }
 
 
