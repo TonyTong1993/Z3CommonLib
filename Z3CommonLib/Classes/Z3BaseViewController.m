@@ -9,6 +9,7 @@
 #import "Z3BaseViewController.h"
 #import "Z3Theme.h"
 #import "UIColor+Z3.h"
+#import "MBProgressHUD+Z3.h"
 @interface Z3BaseViewController ()
 
 @end
