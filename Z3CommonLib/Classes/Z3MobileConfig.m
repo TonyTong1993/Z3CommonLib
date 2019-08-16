@@ -17,10 +17,15 @@
     return _instance;
 }
 
+
+/**
+ *4549 苏州水利
+ *102159 澳门自来水
+ */
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _wkid = 2437;//102159;
+        _wkid = 102159;//2437;//102159;
     }
     return self;
 }
