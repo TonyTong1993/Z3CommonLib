@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *transParamsURL;
 @property (nonatomic,strong) NSArray *gisMetas;
 @property (nonatomic,strong) CoorTranUtil *coorTrans;
-
+@property (nonatomic,copy) NSString *coorTransToken;
 /*
  *查询features 保存的临时公用数据
  */
