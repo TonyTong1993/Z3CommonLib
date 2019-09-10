@@ -43,4 +43,5 @@ TODO: Add long description of the pod here.
    s.dependency 'DZNEmptyDataSet', '~> 1.8.1'
    s.dependency 'MJRefresh', '~> 3.2.0'
    s.dependency 'Masonry', '~> 1.1.0'
+   s.dependency 'PromiseKit', '~> 1.7'
 end
