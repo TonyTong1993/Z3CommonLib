@@ -34,4 +34,5 @@ NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_TO_WORK_ORDER = @"oneKeyToWorkor
     }
     return self;
 }
+
 @end
