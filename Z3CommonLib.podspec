@@ -44,4 +44,5 @@ TODO: Add long description of the pod here.
    s.dependency 'MJRefresh', '~> 3.2.0'
    s.dependency 'Masonry', '~> 1.1.0'
    s.dependency 'PromiseKit', '~> 1.7'
+   s.dependency 'SAMKeychain', '~> 1.5.3'
 end
