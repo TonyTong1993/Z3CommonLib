@@ -258,6 +258,18 @@
 		E94F68ABEAC53DD4556594E0EE4EAD57 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 05485F013180078EF046F272D6AFBA96 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E9B3949D20EEA86AACE9BD33FD5828BE /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 681F41D4D50526BC54B0D1F70E1D27F5 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EA3956A59C95C9C148B73C8FE2ED1409 /* Z3QueryTaskHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C2E4B021A81EBA718A91A28471D796 /* Z3QueryTaskHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBA9C951234CBFAB00CCC286 /* Z3GISMetaRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA9C945234CBFAA00CCC286 /* Z3GISMetaRequest.m */; };
+		EBA9C952234CBFAB00CCC286 /* Z3FeatureLayerProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA9C946234CBFAA00CCC286 /* Z3FeatureLayerProperty.h */; };
+		EBA9C953234CBFAB00CCC286 /* Z3GISMeta.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA9C947234CBFAA00CCC286 /* Z3GISMeta.h */; };
+		EBA9C954234CBFAB00CCC286 /* Z3FeatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA9C948234CBFAB00CCC286 /* Z3FeatureLayer.h */; };
+		EBA9C955234CBFAB00CCC286 /* Z3FeatureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA9C949234CBFAB00CCC286 /* Z3FeatureLayer.m */; };
+		EBA9C956234CBFAB00CCC286 /* Z3GISMetaRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA9C94A234CBFAB00CCC286 /* Z3GISMetaRequest.h */; };
+		EBA9C957234CBFAB00CCC286 /* IllegalCharUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA9C94B234CBFAB00CCC286 /* IllegalCharUtil.h */; };
+		EBA9C958234CBFAB00CCC286 /* Z3FeatureLayerProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA9C94C234CBFAB00CCC286 /* Z3FeatureLayerProperty.m */; };
+		EBA9C959234CBFAB00CCC286 /* Z3GISMetaResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA9C94D234CBFAB00CCC286 /* Z3GISMetaResponse.h */; };
+		EBA9C95A234CBFAB00CCC286 /* Z3GISMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA9C94E234CBFAB00CCC286 /* Z3GISMeta.m */; };
+		EBA9C95B234CBFAB00CCC286 /* IllegalCharUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA9C94F234CBFAB00CCC286 /* IllegalCharUtil.m */; };
+		EBA9C95C234CBFAB00CCC286 /* Z3GISMetaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA9C950234CBFAB00CCC286 /* Z3GISMetaResponse.m */; };
 		EBE6E437BA70A8384ED184406EFFFB0F /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6510F03A605E2231B3D06BD03D1A9 /* NSParagraphStyle+YYText.m */; };
 		EC41569659EB7133299683268ACF70F3 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E6A5FA126916E0F32EF5E381563129 /* NSNumber+YYAdd.m */; };
 		ECCB898E997FAC6AAE9DB13E54E9881E /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B83E6A91637F1844FFB877217C6FDCFC /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -378,7 +390,7 @@
 		11B044984DAEB2778A139FB9644A68E8 /* NSBundle+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+YYAdd.h"; path = "YYKit/Base/Foundation/NSBundle+YYAdd.h"; sourceTree = "<group>"; };
 		159F8B7BD27603493F4AC9B0F893BBF8 /* YYSentinel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSentinel.h; path = YYKit/Utility/YYSentinel.h; sourceTree = "<group>"; };
 		16168E89D200717ED4DE15695C3F1733 /* YYLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYLabel.m; path = YYKit/Text/YYLabel.m; sourceTree = "<group>"; };
-		16754D9CB4495C5DFFB7C2C2C21AFEF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		16754D9CB4495C5DFFB7C2C2C21AFEF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		173C8C3B969285042AD94F28BD4BD265 /* UIColor+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YYAdd.h"; path = "YYKit/Base/UIKit/UIColor+YYAdd.h"; sourceTree = "<group>"; };
 		191B3A084501BD714A8E0BC2101F418E /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		195CF9515F9260739F8F443AB5DD2E3E /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
@@ -471,7 +483,7 @@
 		59FFFBA67E6171646710406ADB3AA5F7 /* NSString+Chinese.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Chinese.m"; path = "Z3CommonLib/Classes/NSString+Chinese.m"; sourceTree = "<group>"; };
 		5A1B3FE1F507DE2FC486765A665E482F /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
 		5B7E48DD732A7808580AC6C4165B72C3 /* YYTextArchiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextArchiver.h; path = YYKit/Text/String/YYTextArchiver.h; sourceTree = "<group>"; };
-		5CD2A13B2CC8562C2DF9137FC399FFE4 /* Z3CommonLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Z3CommonLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5CD2A13B2CC8562C2DF9137FC399FFE4 /* Z3CommonLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Z3CommonLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D6AEF5BF1BD7873932A312DE4C68847 /* MBProgressHUD+Z3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+Z3.h"; path = "Z3CommonLib/Classes/MBProgressHUD+Z3.h"; sourceTree = "<group>"; };
 		5DD7216C139C8D3000D0FBB9209482FF /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
 		5E6028CFC1DD20B856E1F6B240E68B9F /* YYFrameImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYFrameImage.m; path = YYKit/Image/YYFrameImage.m; sourceTree = "<group>"; };
@@ -489,7 +501,7 @@
 		6EAFC73086348AC2A20452C5456D585F /* YYWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageOperation.h; path = YYKit/Image/YYWebImageOperation.h; sourceTree = "<group>"; };
 		6EF536BE3671EA111AB8275A51E50AE8 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
 		6FC0F407E7DA77FF37EEFE0C91929D55 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Vendor/WebP.framework; sourceTree = "<group>"; };
-		6FD51238D4CA75D6D824F34BFF9EC8EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6FD51238D4CA75D6D824F34BFF9EC8EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		70D0C4A9873B536461DBD61365BF011E /* UITextField+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+YYAdd.m"; path = "YYKit/Base/UIKit/UITextField+YYAdd.m"; sourceTree = "<group>"; };
 		72B6D94EC1AE7E03F340E64231E8423D /* Z3MobileConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Z3MobileConfig.h; path = Z3CommonLib/Classes/Z3MobileConfig.h; sourceTree = "<group>"; };
 		7382272FF3E429F2D712120313E3B2D9 /* YYTextDebugOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextDebugOption.m; path = YYKit/Text/Component/YYTextDebugOption.m; sourceTree = "<group>"; };
@@ -522,8 +534,8 @@
 		85E9162680E76AAD4C0BEAC0D4468B50 /* YYAsyncLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYAsyncLayer.h; path = YYKit/Utility/YYAsyncLayer.h; sourceTree = "<group>"; };
 		8640C908B036564582E8FAB383EB2C18 /* Z3AppMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Z3AppMenu.m; path = Z3CommonLib/Classes/Z3AppMenu.m; sourceTree = "<group>"; };
 		86C8E7832DFEEDE0CBB874287A4F0815 /* YYTextLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextLayout.h; path = YYKit/Text/Component/YYTextLayout.h; sourceTree = "<group>"; };
-		8704CF8B078EB682DE1B9B56108A86E4 /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZNEmptyDataSet.a; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		87C1ECEE604348B16802D5BC2C954765 /* libZ3CommonLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZ3CommonLib.a; path = libZ3CommonLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8704CF8B078EB682DE1B9B56108A86E4 /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C1ECEE604348B16802D5BC2C954765 /* libZ3CommonLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZ3CommonLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		88ABD9260796BF32A6C1A7BD36567DF3 /* NSDictionary+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YYAdd.m"; path = "YYKit/Base/Foundation/NSDictionary+YYAdd.m"; sourceTree = "<group>"; };
 		8BBC0F6EB189414F963E0FD7C4C99440 /* YYCGUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCGUtilities.h; path = YYKit/Base/Quartz/YYCGUtilities.h; sourceTree = "<group>"; };
 		8D382B50F3D14FAFB56EDA0AA0057E84 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
@@ -537,14 +549,14 @@
 		91E10E5040A14615981A026636794573 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		93039BDD142EA16D63FA300494746F92 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+YYAdd.m"; path = "YYKit/Base/UIKit/UIControl+YYAdd.m"; sourceTree = "<group>"; };
 		93DF14AD12CF4A3E2A158D2CD28289DC /* YYWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageOperation.m; path = YYKit/Image/YYWebImageOperation.m; sourceTree = "<group>"; };
-		9431E6264892E312FC1E66BB449462EB /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9431E6264892E312FC1E66BB449462EB /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9487EFEA7A8A9578C52364C6C7D1A5A0 /* MJRefreshConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConfig.h; path = MJRefresh/MJRefreshConfig.h; sourceTree = "<group>"; };
 		9528CA05D1C7D995FBA0210B6C45B35E /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYKit/Model/YYClassInfo.m; sourceTree = "<group>"; };
 		9648E9D1C9AA366FB751C6E801F828ED /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		9A826CA461A982642651C7F71B7F0C7B /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		9B25FF96B3FA912528B987AB855C405D /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+YYAdd.m"; path = "YYKit/Base/UIKit/UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
 		9D2C9F91056ECEA2822E701B51C78689 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9F0F9DB563498AB2FA90E167939CA8 /* YYImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCoder.m; path = YYKit/Image/YYImageCoder.m; sourceTree = "<group>"; };
 		9F4F969802E4F7B80A2A159ED7BE4DE4 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYKit/Cache/YYKVStorage.m; sourceTree = "<group>"; };
 		9F605FA817393F916CD293C9514B7B0B /* YYTextParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextParser.h; path = YYKit/Text/String/YYTextParser.h; sourceTree = "<group>"; };
@@ -552,7 +564,7 @@
 		A2161ED1E99B014EE40FFC07819FB061 /* YYThreadSafeArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYThreadSafeArray.m; path = YYKit/Utility/YYThreadSafeArray.m; sourceTree = "<group>"; };
 		A220FAE51DC31FC6D4398BAC11D263D4 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		A23E651D7FEE31480C53938AC721FC51 /* YYTextSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextSelectionView.h; path = YYKit/Text/Component/YYTextSelectionView.h; sourceTree = "<group>"; };
-		A2D7EBA51FBDBBA93EF0D96C2C7EEED3 /* libYYKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYKit.a; path = libYYKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D7EBA51FBDBBA93EF0D96C2C7EEED3 /* libYYKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36C48C4A21FF09508F3E766A92F2A26 /* UIApplication+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YYAdd.m"; path = "YYKit/Base/UIKit/UIApplication+YYAdd.m"; sourceTree = "<group>"; };
 		A3781DBB263A778E19D1204DB2FCA55E /* YYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYKit-dummy.m"; sourceTree = "<group>"; };
 		A37CD8F8C106655B761CE5DC9143BD25 /* NSObject+YYAddForKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAddForKVO.m"; path = "YYKit/Base/Foundation/NSObject+YYAddForKVO.m"; sourceTree = "<group>"; };
@@ -633,7 +645,19 @@
 		E49158CB6C52E021F70FB7F6EE834610 /* YYWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageManager.h; path = YYKit/Image/YYWebImageManager.h; sourceTree = "<group>"; };
 		E5B1D5E9DB950DCE0D4613D7EBEB45FA /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYWebImage.h"; path = "YYKit/Image/Categories/CALayer+YYWebImage.h"; sourceTree = "<group>"; };
 		E94E0C060055F8BBB735AFE5F9D600E1 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		EBF07E52C0640C67F1E288E69CCCE476 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA9C945234CBFAA00CCC286 /* Z3GISMetaRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Z3GISMetaRequest.m; path = Z3CommonLib/Classes/Z3GISMetaRequest.m; sourceTree = "<group>"; };
+		EBA9C946234CBFAA00CCC286 /* Z3FeatureLayerProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Z3FeatureLayerProperty.h; path = Z3CommonLib/Classes/Z3FeatureLayerProperty.h; sourceTree = "<group>"; };
+		EBA9C947234CBFAA00CCC286 /* Z3GISMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Z3GISMeta.h; path = Z3CommonLib/Classes/Z3GISMeta.h; sourceTree = "<group>"; };
+		EBA9C948234CBFAB00CCC286 /* Z3FeatureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Z3FeatureLayer.h; path = Z3CommonLib/Classes/Z3FeatureLayer.h; sourceTree = "<group>"; };
+		EBA9C949234CBFAB00CCC286 /* Z3FeatureLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Z3FeatureLayer.m; path = Z3CommonLib/Classes/Z3FeatureLayer.m; sourceTree = "<group>"; };
+		EBA9C94A234CBFAB00CCC286 /* Z3GISMetaRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Z3GISMetaRequest.h; path = Z3CommonLib/Classes/Z3GISMetaRequest.h; sourceTree = "<group>"; };
+		EBA9C94B234CBFAB00CCC286 /* IllegalCharUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IllegalCharUtil.h; path = Z3CommonLib/Classes/IllegalCharUtil.h; sourceTree = "<group>"; };
+		EBA9C94C234CBFAB00CCC286 /* Z3FeatureLayerProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Z3FeatureLayerProperty.m; path = Z3CommonLib/Classes/Z3FeatureLayerProperty.m; sourceTree = "<group>"; };
+		EBA9C94D234CBFAB00CCC286 /* Z3GISMetaResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Z3GISMetaResponse.h; path = Z3CommonLib/Classes/Z3GISMetaResponse.h; sourceTree = "<group>"; };
+		EBA9C94E234CBFAB00CCC286 /* Z3GISMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Z3GISMeta.m; path = Z3CommonLib/Classes/Z3GISMeta.m; sourceTree = "<group>"; };
+		EBA9C94F234CBFAB00CCC286 /* IllegalCharUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IllegalCharUtil.m; path = Z3CommonLib/Classes/IllegalCharUtil.m; sourceTree = "<group>"; };
+		EBA9C950234CBFAB00CCC286 /* Z3GISMetaResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Z3GISMetaResponse.m; path = Z3CommonLib/Classes/Z3GISMetaResponse.m; sourceTree = "<group>"; };
+		EBF07E52C0640C67F1E288E69CCCE476 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC66064CEBB6956773911ADCD01BC2CF /* UIImage+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YYAdd.m"; path = "YYKit/Base/UIKit/UIImage+YYAdd.m"; sourceTree = "<group>"; };
 		EDC619D2563790CD6142A483EE9C6318 /* UIBarButtonItem+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+YYAdd.m"; path = "YYKit/Base/UIKit/UIBarButtonItem+YYAdd.m"; sourceTree = "<group>"; };
 		EE686DE87EF2E9BE2A7166AA42C620FE /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYWebImage.m"; path = "YYKit/Image/Categories/CALayer+YYWebImage.m"; sourceTree = "<group>"; };
@@ -641,7 +665,7 @@
 		F180898769B73DFFAE3BB071656230C3 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YYAdd.h"; path = "YYKit/Base/Foundation/NSDate+YYAdd.h"; sourceTree = "<group>"; };
 		F19C317403FF3BDAAD50A528B81EA079 /* YYKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKeychain.m; path = YYKit/Utility/YYKeychain.m; sourceTree = "<group>"; };
 		F22302AE71EF5ACDACCB3E28F6D57ED4 /* _YYWebImageSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _YYWebImageSetter.h; path = YYKit/Image/Categories/_YYWebImageSetter.h; sourceTree = "<group>"; };
-		F238BA7BFE38077EBD2A780C2D957772 /* libPods-Z3CommonLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Z3CommonLib_Example.a"; path = "libPods-Z3CommonLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F238BA7BFE38077EBD2A780C2D957772 /* libPods-Z3CommonLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Z3CommonLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24AE31A6641192C3DCACDB64A18E943 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
 		F31E695399C7D73283DDBD1BF91CA786 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextRunDelegate.m; path = YYKit/Text/String/YYTextRunDelegate.m; sourceTree = "<group>"; };
 		F322FCDCAC8DEB101893E58E8A768D9F /* YYTextMagnifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextMagnifier.h; path = YYKit/Text/Component/YYTextMagnifier.h; sourceTree = "<group>"; };
@@ -654,7 +678,7 @@
 		FCA59D571149270F2F9EA884AEA545D7 /* YYTextContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextContainerView.m; path = YYKit/Text/Component/YYTextContainerView.m; sourceTree = "<group>"; };
 		FCD4787DCD746449873C15837092381E /* Pods-Z3CommonLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Z3CommonLib_Example-resources.sh"; sourceTree = "<group>"; };
 		FDBA912CBC30D10E517871D79104F005 /* YYSentinel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSentinel.m; path = YYKit/Utility/YYSentinel.m; sourceTree = "<group>"; };
-		FDEBA27C66A97305B8A5AF25DD49E8CA /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEBA27C66A97305B8A5AF25DD49E8CA /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2DF052680BDF3B5D1283E2C5BB92E7 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYKit/Cache/YYDiskCache.h; sourceTree = "<group>"; };
 		FF0999A7F34BF5488385E294FD3F7BAB /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
 		FF4C7D34197A581FAB4972398B79BC82 /* YYThreadSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYThreadSafeDictionary.m; path = YYKit/Utility/YYThreadSafeDictionary.m; sourceTree = "<group>"; };
@@ -743,7 +767,6 @@
 				195CF9515F9260739F8F443AB5DD2E3E /* ViewController+MASAdditions.m */,
 				A9B5A3220E5623CE37EEEF01685DE4D2 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -846,7 +869,6 @@
 				3F0876026A358688A2FD092712E2D25F /* Resources */,
 				D6578C16450FED6C81B1D80EA1B79866 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -867,7 +889,6 @@
 				C04684BBA38C21D3AF80543EAA6866E5 /* MBProgressHUD.m */,
 				647F29B637B6E1CB5B29F89E39CE4F8F /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -929,6 +950,18 @@
 		C409D07F463D6C7E01B69D6EBB201B0B /* Z3CommonLib */ = {
 			isa = PBXGroup;
 			children = (
+				EBA9C94B234CBFAB00CCC286 /* IllegalCharUtil.h */,
+				EBA9C94F234CBFAB00CCC286 /* IllegalCharUtil.m */,
+				EBA9C948234CBFAB00CCC286 /* Z3FeatureLayer.h */,
+				EBA9C949234CBFAB00CCC286 /* Z3FeatureLayer.m */,
+				EBA9C946234CBFAA00CCC286 /* Z3FeatureLayerProperty.h */,
+				EBA9C94C234CBFAB00CCC286 /* Z3FeatureLayerProperty.m */,
+				EBA9C947234CBFAA00CCC286 /* Z3GISMeta.h */,
+				EBA9C94E234CBFAB00CCC286 /* Z3GISMeta.m */,
+				EBA9C94A234CBFAB00CCC286 /* Z3GISMetaRequest.h */,
+				EBA9C945234CBFAA00CCC286 /* Z3GISMetaRequest.m */,
+				EBA9C94D234CBFAB00CCC286 /* Z3GISMetaResponse.h */,
+				EBA9C950234CBFAB00CCC286 /* Z3GISMetaResponse.m */,
 				5D6AEF5BF1BD7873932A312DE4C68847 /* MBProgressHUD+Z3.h */,
 				7A724F724EC242F3CC091CFCDFECBBA0 /* MBProgressHUD+Z3.m */,
 				1ACDAD602361E41FAE366EDBDF4911A3 /* NSString+Chinese.h */,
@@ -1184,7 +1217,6 @@
 				9521C3669ADE01E9D3F0C5E427E4EF3A /* no-arc */,
 				DA5198D10890287D3EAD861D32F408DF /* Support Files */,
 			);
-			name = YYKit;
 			path = YYKit;
 			sourceTree = "<group>";
 		};
@@ -1203,7 +1235,6 @@
 				2DF9880492EAC17E4BAF87AFC4569324 /* UIScrollView+EmptyDataSet.m */,
 				C1AA53480AAC788E3D42F25BE5C477CD /* Support Files */,
 			);
-			name = DZNEmptyDataSet;
 			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
@@ -1292,7 +1323,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA9C956234CBFAB00CCC286 /* Z3GISMetaRequest.h in Headers */,
+				EBA9C954234CBFAB00CCC286 /* Z3FeatureLayer.h in Headers */,
 				93FF887D749DB4546F554DCF89BC38BE /* UIScrollView+EmptyDataSet.h in Headers */,
+				EBA9C959234CBFAB00CCC286 /* Z3GISMetaResponse.h in Headers */,
+				EBA9C953234CBFAB00CCC286 /* Z3GISMeta.h in Headers */,
+				EBA9C952234CBFAB00CCC286 /* Z3FeatureLayerProperty.h in Headers */,
+				EBA9C957234CBFAB00CCC286 /* IllegalCharUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1590,7 +1627,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA9C951234CBFAB00CCC286 /* Z3GISMetaRequest.m in Sources */,
+				EBA9C95A234CBFAB00CCC286 /* Z3GISMeta.m in Sources */,
+				EBA9C95B234CBFAB00CCC286 /* IllegalCharUtil.m in Sources */,
+				EBA9C955234CBFAB00CCC286 /* Z3FeatureLayer.m in Sources */,
+				EBA9C95C234CBFAB00CCC286 /* Z3GISMetaResponse.m in Sources */,
 				8299B7B2C167831BB6DBCB329CB16EDF /* DZNEmptyDataSet-dummy.m in Sources */,
+				EBA9C958234CBFAB00CCC286 /* Z3FeatureLayerProperty.m in Sources */,
 				47589F089683FB8407AE86F0EF43B11A /* UIScrollView+EmptyDataSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1914,8 +1957,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
