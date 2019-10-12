@@ -33,7 +33,6 @@ extern  NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_TO_WORK_ORDER;//一键�
 @property (nonatomic,assign) NSInteger groupId;//组织ID
 @property (nonatomic,assign) NSInteger groupLev;//组织级别
 @property (nonatomic,copy) NSString *groupCode;//组织编号
-@property (nonatomic,copy) NSString *token;//组织编号
 @property (nonatomic,copy) NSString *groupName;
 @property (nonatomic,copy) NSString *role;
 @property (nonatomic,copy) NSString *roleCode;

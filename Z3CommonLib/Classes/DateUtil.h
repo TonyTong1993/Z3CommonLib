@@ -72,3 +72,6 @@
 +(long)timeDiff:(NSDate*)datesrc target:(NSDate*)datetarget;
 
 @end
+
+static NSString * const FORMAT_DATE_TIME = @"yyyy-MM-dd HH:mm:ss";
+static NSString * const FORMAT_DATE = @"yyyy-MM-dd";
