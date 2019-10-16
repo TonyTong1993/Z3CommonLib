@@ -16,6 +16,8 @@ NSString * const WAI_QIN_SERVER_TASK_NAME = @"WaiQinServer";
 NSString * const LEAKING_SERVER_TASK_NAME = @"LeakingServer";
 NSString * const PATROL_DEVICE_QUERY_IPPORT_TASK_NAME = @"PatrolDeviceQueryIpPort";
 NSString * const ADDRESS_SEARCH_SERVER_TASK_NAME = @"AddressSearchServerUrl";
+NSString * const BSS_SERVER_TASK_NAME = @"BssServer";
+
 @implementation Z3QueryTaskHelper
 + (instancetype)helper {
     return [[super alloc] init];
@@ -25,7 +27,7 @@ NSString * const ADDRESS_SEARCH_SERVER_TASK_NAME = @"AddressSearchServerUrl";
     NSArray *tasks = [Z3MobileConfig shareConfig].tasks;
     __block Z3MobileTask *task = nil;
     [tasks enumerateObjectsUsingBlock:^(Z3MobileTask *obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if ([obj.name isEqualToString:@"SpacialSearchUrl"]) {
+        if ([obj.name isEqualToString:name]) {
             task = obj;
             *stop = YES;
         }

@@ -25,6 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSArray *gisMetas;
 @property (nonatomic,strong) CoorTranUtil *coorTrans;
 @property (nonatomic,copy) NSString *coorTransToken;
+
+    /// 坐标转换后的x,y是反转
+@property (nonatomic,assign) BOOL coorTransReverse;
 /*
  *查询features 保存的临时公用数据
  */

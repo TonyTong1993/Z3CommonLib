@@ -16,6 +16,7 @@ extern NSString * const WAI_QIN_SERVER_TASK_NAME;
 extern NSString * const LEAKING_SERVER_TASK_NAME;
 extern NSString * const PATROL_DEVICE_QUERY_IPPORT_TASK_NAME;
 extern NSString * const ADDRESS_SEARCH_SERVER_TASK_NAME;
+extern NSString * const BSS_SERVER_TASK_NAME;
 @class Z3MobileTask;
 @interface Z3QueryTaskHelper : NSObject
 + (instancetype)helper;
