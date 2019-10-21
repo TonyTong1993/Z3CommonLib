@@ -33,7 +33,15 @@
     }
 }
 
-- (void)showAlert:(NSString *)title message:(NSString *)message{
+- (void)showAlert:(NSString *)title
+          message:(NSString *)message
+          handler:(void (^ __nullable)(UIAlertAction *action))handler {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDestructive handler:handler];
+    [alert addAction:cancel];
+    [alert addAction:ok];
+    [self presentViewController:alert animated:YES completion:nil];
     
 }
 

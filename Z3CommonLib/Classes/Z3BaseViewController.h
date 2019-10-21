@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+NS_ASSUME_NONNULL_BEGIN
 @interface Z3BaseViewController : UIViewController
 
 
@@ -23,11 +23,13 @@
 
 /**
  显示alert
-
+ 
  @param title 标题
  @param message 内容
  */
-- (void)showAlert:(NSString *)title message:(NSString *)message;
+- (void)showAlert:(NSString *)title
+          message:(NSString *)message
+          handler:(void (^ __nullable)(UIAlertAction *action))handler;
 
 
 
@@ -40,3 +42,4 @@
 - (void)post:(NSNotificationName)notificationName message:(id)message;
 
 @end
+NS_ASSUME_NONNULL_END
