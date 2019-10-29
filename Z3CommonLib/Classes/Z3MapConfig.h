@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *dispMinResolution;
 @property (nonatomic,copy) NSString *addressSearchType;
 @property (nonatomic,copy) NSArray  *sources;
-
+@property (nonatomic,copy) NSArray  *layers;
 - (NSArray *)availiableBasemaps;
 -(Z3MapLayer *)visiableBasemap;
 - (NSArray *)mapLayers;

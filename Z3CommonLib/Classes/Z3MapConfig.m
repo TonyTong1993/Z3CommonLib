@@ -18,6 +18,9 @@
                 [results addObject:layer];
             }
         }
+        Z3MapLayer *googleLayer = [[Z3MapLayer alloc] init];
+        googleLayer.name = @"google map";
+        [results addObject:googleLayer];
         return [results copy];
     }
     return nil;
