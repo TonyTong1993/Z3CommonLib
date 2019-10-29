@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+@class Z3MapLayer;
 @interface Z3MapConfig : NSObject
 @property (nonatomic,copy) NSString *initialExtent;
 @property (nonatomic,copy) NSString *mapLoadType;
@@ -18,6 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *addressSearchType;
 @property (nonatomic,copy) NSArray  *sources;
 
+- (NSArray *)availiableBasemaps;
+-(Z3MapLayer *)visiableBasemap;
+- (NSArray *)mapLayers;
 @end
 
 @interface Z3MapLayer : NSObject
