@@ -16,11 +16,25 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *dispMaxResolution;
 @property (nonatomic,copy) NSString *dispMinResolution;
 @property (nonatomic,copy) NSString *addressSearchType;
+@property (nonatomic,copy) NSArray  *basemaps;
 @property (nonatomic,copy) NSArray  *sources;
 @property (nonatomic,copy) NSArray  *layers;
 - (NSArray *)availiableBasemaps;
 -(Z3MapLayer *)visiableBasemap;
 - (NSArray *)mapLayers;
+@end
+
+@interface Z3Basemap : NSObject
+@property (nonatomic,copy) NSString *sourceType;
+@property (nonatomic,copy) NSString *ID;
+@property (nonatomic,copy) NSString *name;
+@property (nonatomic,copy) NSString *desc;
+@property (nonatomic,copy) NSString *url;
+@property (nonatomic,assign) BOOL    visible;
+@property (nonatomic,copy) NSString  *dispMaxScale;
+@property (nonatomic,copy) NSString  *dispMinScale;
+@property (nonatomic,copy) NSString  *dispRect;
+@property (nonatomic,copy) NSArray  *sources;
 @end
 
 @interface Z3MapLayer : NSObject

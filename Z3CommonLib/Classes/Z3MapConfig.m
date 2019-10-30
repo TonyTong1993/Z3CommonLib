@@ -11,6 +11,9 @@
 @implementation Z3MapConfig
 
 - (NSArray *)availiableBasemaps {
+    if (self.basemaps.count) {
+        return self.basemaps;
+    }
     if (self.sources.count) {
         NSMutableArray *results = [[NSMutableArray alloc] init];
         for (Z3MapLayer *layer in self.sources) {
@@ -18,16 +21,13 @@
                 [results addObject:layer];
             }
         }
-        Z3MapLayer *googleLayer = [[Z3MapLayer alloc] init];
-        googleLayer.name = @"google map";
-        [results addObject:googleLayer];
         return [results copy];
     }
     return nil;
 }
 
 -(Z3MapLayer *)visiableBasemap {
-    NSArray *basemaps = [self availiableBasemaps];
+    NSArray *basemaps = self.basemaps.count > 1 ? self.basemaps : [self availiableBasemaps];
     if (basemaps.count) {
         NSMutableArray *results = [[NSMutableArray alloc] init];
         for (Z3MapLayer *layer in [self availiableBasemaps]) {
@@ -42,6 +42,11 @@
 }
 
 - (NSArray *)mapLayers {
+    
+    if (self.basemaps.count) {
+        return self.sources;
+    }
+    
     if (self.sources.count) {
         NSMutableArray *results = [[NSMutableArray alloc] init];
         for (Z3MapLayer *layer in self.sources) {
@@ -53,6 +58,10 @@
     }
     return nil;
 }
+
+@end
+
+@implementation Z3Basemap
 
 @end
 
