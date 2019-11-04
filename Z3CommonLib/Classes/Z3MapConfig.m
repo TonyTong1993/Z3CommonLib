@@ -14,15 +14,7 @@
     if (self.basemaps.count) {
         return self.basemaps;
     }
-    if (self.sources.count) {
-        NSMutableArray *results = [[NSMutableArray alloc] init];
-        for (Z3MapLayer *layer in self.sources) {
-            if ([layer.ID isEqualToString:@"1"]) {
-                [results addObject:layer];
-            }
-        }
-        return [results copy];
-    }
+
     return nil;
 }
 
@@ -42,21 +34,7 @@
 }
 
 - (NSArray *)mapLayers {
-    
-    if (self.basemaps.count) {
-        return self.sources;
-    }
-    
-    if (self.sources.count) {
-        NSMutableArray *results = [[NSMutableArray alloc] init];
-        for (Z3MapLayer *layer in self.sources) {
-            if (![layer.ID isEqualToString:@"1"]) {
-                [results addObject:layer];
-            }
-        }
-        return [results copy];
-    }
-    return nil;
+    return self.sources;
 }
 
 @end
