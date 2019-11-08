@@ -1,8 +1,65 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - DZNEmptyDataSet (1.8.1)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.2.0)
+  - OMGHTTPURLRQ (3.2.4):
+    - OMGHTTPURLRQ/RQ (= 3.2.4)
+  - OMGHTTPURLRQ/FormURLEncode (3.2.4)
+  - OMGHTTPURLRQ/RQ (3.2.4):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.2.4)
+  - PromiseKit (1.7.7):
+    - PromiseKit/CALayer (= 1.7.7)
+    - PromiseKit/NSNotificationCenter (= 1.7.7)
+    - PromiseKit/NSURLConnection (= 1.7.7)
+    - PromiseKit/Pause (= 1.7.7)
+    - PromiseKit/UIActionSheet (= 1.7.7)
+    - PromiseKit/UIAlertView (= 1.7.7)
+    - PromiseKit/UIView (= 1.7.7)
+    - PromiseKit/UIViewController (= 1.7.7)
+    - PromiseKit/Until (= 1.7.7)
+    - PromiseKit/When (= 1.7.7)
+  - PromiseKit/CALayer (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/NSNotificationCenter (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/NSURLConnection (1.7.7):
+    - OMGHTTPURLRQ (~> 3.2)
+    - PromiseKit/Promise
+  - PromiseKit/Pause (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/Promise (1.7.7)
+  - PromiseKit/UIActionSheet (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/UIAlertView (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/UIView (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/UIViewController (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/Until (1.7.7):
+    - PromiseKit/Promise
+    - PromiseKit/When
+  - PromiseKit/When (1.7.7):
+    - PromiseKit/Promise
+  - SAMKeychain (1.5.3)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -11,31 +68,65 @@ PODS:
     - Masonry (~> 1.1.0)
     - MBProgressHUD (~> 1.1.0)
     - MJRefresh (~> 3.2.0)
+    - PromiseKit (~> 1.7)
+    - SAMKeychain (~> 1.5.3)
     - YYKit (~> 1.0.9)
+<<<<<<< .mine
+    - Z3Network (~> 0.0.3)
+  - Z3Network (0.0.3):
+    - AFNetworking (~> 3.2.1)
+=======
+    - Z3Network (~> 0.0.1)
+  - Z3Network (0.0.3):
+    - AFNetworking (~> 3.2.1)
+>>>>>>> .r46
 
 DEPENDENCIES:
   - Z3CommonLib (from `../`)
+  - Z3Network (from `../../Z3Network`)
 
 SPEC REPOS:
+  https://gitee.com/tongwanhua/mySpecs.git:
+    - Z3Network
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
     - DZNEmptyDataSet
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - OMGHTTPURLRQ
+    - PromiseKit
+    - SAMKeychain
     - YYKit
 
 EXTERNAL SOURCES:
   Z3CommonLib:
     :path: "../"
+  Z3Network:
+    :path: "../../Z3Network"
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  OMGHTTPURLRQ: 9ac96bdf5c90a33f75836630729ea1adc312a9ed
+  PromiseKit: 9007df2f9e2ef725467084ab3880cf932ab935a4
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
-  Z3CommonLib: 9c7ee9dc55e3e82ab6962356bf50d0a26583495e
+<<<<<<< .mine
+  Z3CommonLib: 45bb3e6799e47dfe479f8290e87f42f5caa4388c
+  Z3Network: d6210e0126772f510bf1481ddb2a0d71f639934e
+=======
+  Z3CommonLib: 7856d2be5a7181665be05525c68957f0984eb343
+  Z3Network: 1e27ccb44028560f14a4257679367bfa418b70df
+>>>>>>> .r46
 
-PODFILE CHECKSUM: eb5e712dfd90e0455a5d72af42552d6f7d4805c8
+<<<<<<< .mine
+PODFILE CHECKSUM: f0c01f01dd231c5e96046fefbedcc27922c0d77b
+=======
+PODFILE CHECKSUM: 50accf0f9d33ca7d2a38911033e75d716ed86b6b
+>>>>>>> .r46
 
 COCOAPODS: 1.7.0.rc.1

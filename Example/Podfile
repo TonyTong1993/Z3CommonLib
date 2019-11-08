@@ -1,7 +1,9 @@
 #use_frameworks!
 
 platform :ios, '8.0'
-
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitee.com/tongwanhua/mySpecs.git'
 target 'Z3CommonLib_Example' do
   pod 'Z3CommonLib', :path => '../'
+  pod 'Z3Network', :path => '../../Z3Network'
 end

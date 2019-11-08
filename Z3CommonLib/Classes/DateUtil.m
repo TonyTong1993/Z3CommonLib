@@ -72,7 +72,7 @@
 +(NSString*)stringFromDateDay:(NSDate*)date{
     NSString* format = @"yyyy-MM-dd";
     if(date){
-        return [[NSDate date] formattedDateWithFormat:format];
+        return [date formattedDateWithFormat:format];
     }
     return @"";
 }
