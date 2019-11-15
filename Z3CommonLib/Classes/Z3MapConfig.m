@@ -37,6 +37,13 @@
     return self.sources;
 }
 
+- (NSMutableArray *)groupSources {
+    if (!_groupSources) {
+        _groupSources = [[NSMutableArray alloc] init];
+    }
+    return _groupSources;
+}
+
 @end
 
 @implementation Z3Basemap

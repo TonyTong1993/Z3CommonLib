@@ -18,6 +18,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *addressSearchType;
 @property (nonatomic,copy) NSArray  *basemaps;
 @property (nonatomic,copy) NSArray  *sources;
+
+/**
+ *为解决需求1870 【苏州水利】app地图中心-图层管理引入
+ 存放多组sources
+ */
+@property (nonatomic,copy) NSMutableArray  *groupSources;
 @property (nonatomic,copy) NSArray  *layers;
 - (NSArray *)availiableBasemaps;
 -(Z3MapLayer *)visiableBasemap;
