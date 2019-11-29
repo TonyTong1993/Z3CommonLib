@@ -24,7 +24,6 @@ NS_ASSUME_NONNULL_BEGIN
  存放多组sources
  */
 @property (nonatomic,copy) NSMutableArray  *groupSources;
-@property (nonatomic,copy) NSArray  *layers;
 - (NSArray *)availiableBasemaps;
 -(Z3MapLayer *)visiableBasemap;
 - (NSArray *)mapLayers;
@@ -43,6 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSArray  *sources;
 @end
 
+@protocol AGSLayerContent;
 @interface Z3MapLayer : NSObject
 @property (nonatomic,copy) NSString *sourceType;
 @property (nonatomic,copy) NSString *ID;
@@ -53,6 +53,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString  *dispMaxScale;
 @property (nonatomic,copy) NSString  *dispMinScale;
 @property (nonatomic,copy) NSString  *dispRect;
+@property (nonatomic,strong) UIImage *symbolImage;
+@property (nonatomic,copy) NSArray *subLayers;
+@property (nonatomic,strong) id<AGSLayerContent> agsLayer;
 @end
 
 NS_ASSUME_NONNULL_END

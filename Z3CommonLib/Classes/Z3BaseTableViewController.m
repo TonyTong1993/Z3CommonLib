@@ -28,7 +28,7 @@
     tableView.delegate = self;
     tableView.emptyDataSetSource = self;
     tableView.emptyDataSetDelegate = self;
-    tableView.backgroundColor = [UIColor colorWithHex:@"#f4f5f7"];;
+    tableView.backgroundColor = [UIColor colorWithHex:@"#f4f5f7"];
     [self.view addSubview:tableView];
     self.tableView = tableView;
     if (@available(iOS 11.0, *)) {

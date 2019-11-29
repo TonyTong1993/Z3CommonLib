@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Z3FeatureLayer : NSObject<YYModel>
 @property (nonatomic,copy) NSString *dname;
+@property (nonatomic,copy) NSString *dalias;
 @property (nonatomic,assign) NSInteger layerid;
 @property (nonatomic,assign) NSInteger geotype;
 @property (nonatomic,assign) NSInteger dno;

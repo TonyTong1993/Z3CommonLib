@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *title;
 @property (nonatomic,copy) NSString *url;
 @property (nonatomic,copy) NSString *iconName;
+@property (nonatomic,copy) NSString *highlightIcon;
 @property (nonatomic,copy) NSString *className;
 @property (nonatomic,copy) NSString *command;
 @property (nonatomic,assign) BOOL configurable;
