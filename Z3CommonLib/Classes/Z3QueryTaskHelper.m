@@ -12,6 +12,7 @@
 NSString * const SPACIAL_SEARCH_URL_TASK_NAME = @"SpacialSearchUrl";
 NSString * const PATROL_FEATURE_SERVER_TASK_NAME = @"PatrolFeatureServer";
 NSString * const PATROL_SERVER_TASK_NAME = @"PatrolServer";
+NSString * const PATROL_FORWARD_SERVER_TASK_NAME = @"ForwardServer";
 NSString * const WAI_QIN_SERVER_TASK_NAME = @"WaiQinServer";
 NSString * const LEAKING_SERVER_TASK_NAME = @"LeakingServer";
 NSString * const PATROL_DEVICE_QUERY_IPPORT_TASK_NAME = @"PatrolDeviceQueryIpPort";

@@ -12,6 +12,7 @@ NSString * const Z3KEY_AUTO_LOGIN = @"AUTO_LOGIN";
 NSString * const Z3KEY_AUTO_FILL_PWD = @"AUTO_FILL_PWD";
 NSString * const Z3KEY_USER_NAME = @"USER_NAME";
 NSString * const Z3KEY_USER_PASSWORD = @"USER_PASSWORD";
+NSString * const Z3KEY_USER_ACCESS_TOKEN = @"USER_ACCESS_TOKEN";
 NSString * const Z3KEY_USER_LOGIN_FLAG = @"USER_LOGIN_FLAG";//登录状态
 NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_EDIT = @"eventedit";//事件编辑
 NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_SELF_QUERY = @" queryEventSelf";//一键转工单

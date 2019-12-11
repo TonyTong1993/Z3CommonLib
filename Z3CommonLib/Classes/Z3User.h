@@ -13,6 +13,7 @@ extern NSString * const Z3KEY_AUTO_LOGIN ;
 extern NSString * const Z3KEY_AUTO_FILL_PWD;
 extern  NSString * const Z3KEY_USER_NAME;
 extern  NSString * const Z3KEY_USER_PASSWORD;
+extern NSString * const  Z3KEY_USER_ACCESS_TOKEN;
 extern  NSString * const Z3KEY_USER_LOGIN_FLAG;//登录状态
 extern  NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_EDIT;//事件编辑
 extern NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_SELF_QUERY;
