@@ -7,7 +7,7 @@
 //
 
 #import "Z3GISMetaResponse.h"
-#import "Z3GISMeta.h"
+#import "Z3FeatureCollectionLayer.h"
 @implementation Z3GISMetaResponse
 @synthesize data = _data;
 - (void)toModel {
@@ -16,7 +16,7 @@
         NSArray *metas =  metaJson[@"metainfo"];
         NSMutableArray *mMetas = [NSMutableArray arrayWithCapacity:metas.count];
         for (NSDictionary *metaInfo in metas) {
-            Z3GISMeta *meta = [Z3GISMeta modelWithJSON:metaInfo];
+            Z3FeatureCollectionLayer *meta = [Z3FeatureCollectionLayer modelWithJSON:metaInfo];
             [mMetas addObject:meta];
         }
         _data = [mMetas copy];

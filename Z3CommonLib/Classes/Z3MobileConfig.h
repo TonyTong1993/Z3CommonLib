@@ -43,6 +43,12 @@ NS_ASSUME_NONNULL_BEGIN
  地图参考系wkid，默认值为2437
  */
 @property (nonatomic,assign) NSInteger wkid;
+
+/*
+ *苏州水利 禅道需求编号：2460 手持端信息采集上报中工程分类和发生位置自动关联
+ *保存行政区域配置数据
+ */
+@property (nonatomic,copy) NSArray *districts;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -6,9 +6,9 @@
 //  Copyright © 2019 Tony Tony. All rights reserved.
 //
 
-#import "Z3GISMeta.h"
+#import "Z3FeatureCollectionLayer.h"
 #import "Z3FeatureLayer.h"
-@implementation Z3GISMeta
+@implementation Z3FeatureCollectionLayer
 + (NSDictionary<NSString *,id> *)modelContainerPropertyGenericClass {
     return @{@"net":[Z3FeatureLayer class]};
 }

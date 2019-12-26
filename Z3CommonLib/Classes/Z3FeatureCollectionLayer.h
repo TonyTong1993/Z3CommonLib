@@ -10,7 +10,7 @@
 #import <YYKit/NSObject+YYModel.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Z3GISMeta : NSObject<YYModel>
+@interface Z3FeatureCollectionLayer : NSObject<YYModel>
 @property (nonatomic,copy) NSString *code;
 
 /**
