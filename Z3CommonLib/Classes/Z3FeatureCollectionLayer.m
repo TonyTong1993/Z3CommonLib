@@ -7,9 +7,28 @@
 //
 
 #import "Z3FeatureCollectionLayer.h"
-#import "Z3FeatureLayer.h"
 @implementation Z3FeatureCollectionLayer
 + (NSDictionary<NSString *,id> *)modelContainerPropertyGenericClass {
     return @{@"net":[Z3FeatureLayer class]};
+}
+
+- (NSString *)displayText {
+    return _descripe;
+}
+@end
+
+@implementation Z3FeatureLayer
++ (NSDictionary<NSString *,id> *)modelContainerPropertyGenericClass {
+    return @{@"fields":[Z3FeatureLayerProperty class]};
+}
+
+- (NSString *)displayText {
+    return _dalias;
+}
+@end
+
+@implementation Z3FeatureLayerProperty
+- (NSString *)displayText {
+    return _alias;
 }
 @end

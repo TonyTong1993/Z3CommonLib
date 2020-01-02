@@ -10,7 +10,15 @@
 #import <YYKit/NSObject+YYModel.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Z3FeatureCollectionLayer : NSObject<YYModel>
+@protocol Z3FeatureDisplayOption <NSObject>
+
+- (NSString *)displayText;
+
+- (NSString *)value;
+
+@end
+
+@interface Z3FeatureCollectionLayer : NSObject<YYModel,Z3FeatureDisplayOption>
 @property (nonatomic,copy) NSString *code;
 
 /**
@@ -25,5 +33,38 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSArray  *net;
 @end
 
+@interface Z3FeatureLayer : NSObject<YYModel,Z3FeatureDisplayOption>
+@property (nonatomic,copy) NSString *dname;
+@property (nonatomic,copy) NSString *dalias;
+@property (nonatomic,assign) NSInteger layerid;
+@property (nonatomic,assign) NSInteger geotype;
+@property (nonatomic,assign) NSInteger dno;
+@property (nonatomic,assign) NSInteger bsprop;
+@property (nonatomic,assign,getter=isVisiable) BOOL visiable;
+@property (nonatomic,copy) NSArray *fields;
+@end
 
+@interface Z3FeatureLayerProperty : NSObject<Z3FeatureDisplayOption>
+@property (nonatomic,copy) NSString *alias;
+@property (nonatomic,copy) NSString *esritype;
+@property (nonatomic,copy) NSString *name;
+@property (nonatomic,copy) NSString *dname;
+@property (nonatomic,copy) NSString *prop;
+
+/**
+ 下拉可选值
+ */
+@property (nonatomic,copy) NSArray *values;
+
+
+/**
+ 1====string 文本
+ 2====date  日期
+ 3====下拉
+ */
+@property (nonatomic,assign) NSInteger disptype;
+@property (nonatomic,copy) NSString *defval;
+@property (nonatomic,copy) NSString *displayValue;
+@property (nonatomic,assign) NSInteger findex;
+@end
 NS_ASSUME_NONNULL_END
