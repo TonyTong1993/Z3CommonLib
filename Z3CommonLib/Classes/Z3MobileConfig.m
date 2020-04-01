@@ -26,7 +26,7 @@
     self = [super init];
     if (self) {
 //        _wkid = 4549;
-        _wkid = 102159;
+        _wkid = 4326;
     }
     return self;
 }

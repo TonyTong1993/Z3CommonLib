@@ -39,6 +39,17 @@ extern  NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_TO_WORK_ORDER;//一键�
 @property (nonatomic,copy) NSString *roleCode;
 @property (nonatomic,copy) NSString *trueName;
 
+/*镇司用户模型--begin */
+@property (nonatomic,assign) NSInteger oid;
+@property (nonatomic,copy) NSString *education;
+@property (nonatomic,copy) NSString *nation;
+@property (nonatomic,copy) NSString *sex;
+@property (nonatomic,assign) BOOL isadmin;//组织ID
+@property (nonatomic,copy) NSString *usid;
+@property (nonatomic,copy) NSString *maritalstatus;
+@property (nonatomic,assign) int age;
+@property (nonatomic,copy) NSString *addr;
+/*镇司用户模型--end */
 
 @end
 

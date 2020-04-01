@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *className;
 @property (nonatomic,copy) NSString *command;
 @property (nonatomic,assign) BOOL configurable;
-
+@property (nonatomic,copy) NSString *badgeKey;
 /**
  是否需要预先加载请求数据
  */
@@ -28,6 +28,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger eventType;
 @property (nonatomic,copy) NSArray <Z3AppMenu *> *menus;
 @property (nonatomic,copy) NSString *menuID;
+
+/*镇司----begin*/
+@property (nonatomic,copy) NSString *path;
+@property (nonatomic,copy) NSString *gid;
+@property (nonatomic,copy) NSString *params;
+@property (nonatomic,copy) NSArray <Z3AppMenu *> *children;
+/*镇司----end*/
 @end
 
 NS_ASSUME_NONNULL_END

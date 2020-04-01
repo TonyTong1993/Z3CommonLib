@@ -36,6 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *desc;
 @property (nonatomic,copy) NSString *url;
 @property (nonatomic,assign) BOOL    visible;
+@property (nonatomic,copy) NSString *token;
 @property (nonatomic,copy) NSString  *dispMaxScale;
 @property (nonatomic,copy) NSString  *dispMinScale;
 @property (nonatomic,copy) NSString  *dispRect;
@@ -49,6 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *name;
 @property (nonatomic,copy) NSString *desc;
 @property (nonatomic,copy) NSString *url;
+@property (nonatomic,copy) NSString *token;
 @property (nonatomic,assign) BOOL    visible;
 @property (nonatomic,copy) NSString  *dispMaxScale;
 @property (nonatomic,copy) NSString  *dispMinScale;
