@@ -9,12 +9,17 @@
 #import "Z3FeatureCollectionLayer.h"
 @implementation Z3FeatureCollectionLayer
 + (NSDictionary<NSString *,id> *)modelContainerPropertyGenericClass {
-    return @{@"net":[Z3FeatureLayer class]};
+    return @{@"net":[Z3FeatureLayer class],@"fields":[Z3FeatureLayerProperty class]};
 }
 
 - (NSString *)displayText {
     return _descripe;
 }
+
+- (nonnull NSString *)value {
+    return _layername;
+}
+
 @end
 
 @implementation Z3FeatureLayer
@@ -25,10 +30,20 @@
 - (NSString *)displayText {
     return _dalias;
 }
+
+- (nonnull NSString *)value {
+    return _dname;
+}
+
 @end
 
 @implementation Z3FeatureLayerProperty
 - (NSString *)displayText {
     return _alias;
 }
+
+- (nonnull NSString *)value {
+    return _name;
+}
+
 @end
