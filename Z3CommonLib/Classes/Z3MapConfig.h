@@ -40,6 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString  *dispMinScale;
 @property (nonatomic,copy) NSString  *dispRect;
 @property (nonatomic,copy) NSArray  *sources;
+@property (nonatomic,assign) float opacity;
 @end
 
 @protocol AGSLayerContent;
@@ -56,6 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) UIImage *symbolImage;
 @property (nonatomic,copy) NSArray *subLayers;
 @property (nonatomic,strong) id<AGSLayerContent> agsLayer;
+@property (nonatomic,assign) float opacity;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -48,9 +48,24 @@
 
 @implementation Z3Basemap
 
+- (float)opacity {
+    if (_opacity <= 0) {
+        return 1;
+    }
+    
+    return _opacity;
+}
 @end
 
 @implementation Z3MapLayer
+
+- (float)opacity {
+    if (_opacity <= 0) {
+        return 1;
+    }
+    
+    return _opacity;
+}
 
 @end
 

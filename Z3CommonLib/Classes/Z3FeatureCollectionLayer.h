@@ -31,6 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *layerid;
 @property (nonatomic,copy) NSString *db_mode;
 @property (nonatomic,copy) NSArray  *net;
+
+/// 适配苏州水利管网模型
+@property (nonatomic,copy) NSArray *fields;
 @end
 
 @interface Z3FeatureLayer : NSObject<YYModel,Z3FeatureDisplayOption>
