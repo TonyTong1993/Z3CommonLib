@@ -49,6 +49,7 @@ extern  NSString * const Z3KEY_USER_AUTHORIZATION_EVENT_TO_WORK_ORDER;//一键�
 @property (nonatomic,copy) NSString *maritalstatus;
 @property (nonatomic,assign) int age;
 @property (nonatomic,copy) NSString *addr;
+@property (nonatomic,copy) NSString *groupPath;
 /*镇司用户模型--end */
 
 @end
