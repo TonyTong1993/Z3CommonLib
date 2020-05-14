@@ -52,6 +52,24 @@
     [hud hideAnimated:YES afterDelay:1.0];
 }
 
+-(BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED < __IPHONE_9_0
+- (NSUInteger)supportedInterfaceOrientations
+#else
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+#endif
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
+    
+    return UIInterfaceOrientationPortrait;
+}
 
 
 
