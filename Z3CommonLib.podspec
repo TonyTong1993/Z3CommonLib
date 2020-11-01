@@ -29,7 +29,6 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'Z3CommonLib/Classes/**/*'
   
   # s.resource_bundles = {
@@ -38,13 +37,9 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'YYKit'
+   s.dependency 'YYModel',
+   s.dependency 'Masonry'
    s.dependency 'MBProgressHUD'
    s.dependency 'DZNEmptyDataSet'
-   s.dependency 'MJRefresh'
-   s.dependency 'Masonry'
-   s.dependency 'PromiseKit'
-   s.dependency 'SAMKeychain'
-   s.dependency 'SAMKeychain'
    s.dependency 'Z3Network'
 end
