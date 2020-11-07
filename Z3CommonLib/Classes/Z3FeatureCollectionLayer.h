@@ -69,5 +69,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *defval;
 @property (nonatomic,copy) NSString *displayValue;
 @property (nonatomic,assign) NSInteger findex;
+@property (nonatomic,assign) BOOL visible;
 @end
 NS_ASSUME_NONNULL_END

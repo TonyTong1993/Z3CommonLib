@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Z3GISMetaResponse : Z3BaseResponse
 
++ (instancetype)loadGisCache;
+
 @end
 
 NS_ASSUME_NONNULL_END
