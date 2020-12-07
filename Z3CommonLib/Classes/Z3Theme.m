@@ -8,7 +8,7 @@
 //导航栏选中字体颜色 5BB4EB 未选中颜色 black
 
 #import "Z3Theme.h"
-NSInteger const themeColorHexValue = 0x3091ED;//主题颜色
+NSInteger const themeColorHexValue = 0x288EF0;//主题颜色 
 NSString * const themeColorHex = @"#3091ED";//主题颜色
 NSInteger const separatorColorHexValue = 0xC7C7CC;//间隔线
 NSString * const separatorColorHex = @"#C7C7CC";

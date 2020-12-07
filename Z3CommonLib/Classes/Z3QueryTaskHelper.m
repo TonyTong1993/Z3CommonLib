@@ -18,6 +18,9 @@ NSString * const LEAKING_SERVER_TASK_NAME = @"LeakingServer";
 NSString * const PATROL_DEVICE_QUERY_IPPORT_TASK_NAME = @"PatrolDeviceQueryIpPort";
 NSString * const ADDRESS_SEARCH_SERVER_TASK_NAME = @"AddressSearchServerUrl";
 NSString * const BSS_SERVER_TASK_NAME = @"BssServer";
+NSString * const MQTT_HOST_URL_TASK_NAME = @"MqttHostUrl";
+NSString * const MQTT_GPS_SERVICE_URL_TASK_NAME = @"MqttGpsServiceUrl";
+NSString * const PLAN_TASK_START_VOI_TIP_TASK_NAME = @"PlanTaskStartVoiTip";
 
 @implementation Z3QueryTaskHelper
 + (instancetype)helper {
