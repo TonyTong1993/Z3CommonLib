@@ -27,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray *)availiableBasemaps;
 -(Z3MapLayer *)visiableBasemap;
 - (NSArray *)mapLayers;
+-(NSArray *)visiableBasemaps;
 @end
 
 @interface Z3Basemap : NSObject
@@ -42,6 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString  *dispRect;
 @property (nonatomic,copy) NSArray  *sources;
 @property (nonatomic,assign) float opacity;
+@property (nonatomic,assign) BOOL isBaseMap;
 @end
 
 @protocol AGSLayerContent;
@@ -60,6 +62,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSArray *subLayers;
 @property (nonatomic,strong) id<AGSLayerContent> agsLayer;
 @property (nonatomic,assign) float opacity;
+@property (nonatomic,assign) BOOL isBaseMap;
 @end
 
 NS_ASSUME_NONNULL_END

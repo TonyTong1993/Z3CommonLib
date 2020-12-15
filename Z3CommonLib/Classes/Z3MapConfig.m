@@ -7,7 +7,7 @@
 //
 
 #import "Z3MapConfig.h"
-
+#import "Z3AGSLayerFactory.h"
 @implementation Z3MapConfig
 
 - (NSArray *)availiableBasemaps {
@@ -31,6 +31,18 @@
     }
     
     return nil;
+}
+
+-(NSArray *)visiableBasemaps {
+    if(self.basemaps == nil){
+        return nil;
+    }
+    NSMutableArray *results = [[NSMutableArray alloc] init];
+    for (Z3MapLayer *layer in self.basemaps) {
+        AGSLayer *agslayer = [[Z3AGSLayerFactory factory] loadMapLayer:layer];
+        [results addObject:agslayer];
+    }
+    return [results copy];
 }
 
 - (NSArray *)mapLayers {
